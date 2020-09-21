@@ -1,9 +1,9 @@
 # Django Based Blog
 This Is Django Based Blog App
 
-### Backend is handel by
+### Backend is handled by
 - Django
-### Frontend is handel by
+### Frontend is handled by
 - Bootstrap4
 
 ## The App Features Like
