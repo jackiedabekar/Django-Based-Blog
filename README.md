@@ -39,7 +39,7 @@ $ source blog/bin/activate
 ```
 $ pip install -r requirements.txt
 ```
-> Clone The Project In The Abov Folder
+> Clone The Project In The Folder which created above
 > and run the following command
 ```
 $ python manage.py runserver
