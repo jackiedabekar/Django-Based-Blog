@@ -1,0 +1,33 @@
+{% extends 'blog/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+	{% if title %}
+		<title>Django Blog - {{ title }}</title>
+	{% else %}
+		<title>Django Blog</title>
+	{% endif %}
+{% endblock title %}
+
+{% block body %}
+	<div class="content-section">
+		<form method="POST">
+			{% csrf_token %}
+			<fieldset class="form-group">
+				<legend class="border-bottom mb-4">Join Todays
+				</legend>
+				{{ form|crispy }}
+			</fieldset>
+			<div class="form-group">
+				<button class="btn btn-outline-info" type="submit">
+					Sign up
+				</button>
+			</div>
+		</form>
+		<div class="border-top pt-3">
+			<small class='text-muted'>
+				Already Have An Account? <a class='ml-2' href="{% url 'login' %}">Sign In</a>
+			</small>
+		</div>
+	</div>
+{% endblock body %}
