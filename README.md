@@ -9,7 +9,7 @@ This Is Django Based Blog App
 ## The App Have Features Like
 - Login And Logout Functionality
 - Registration
-- Email Rest Authentication
+- Password Rest Via Email Authentication
 - Profile Picture Upload
 - Django Paginator
 - Blog Update and Delete
