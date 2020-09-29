@@ -6,7 +6,7 @@ This Is Django Based Blog App
 ### Frontend is handled by
 - Bootstrap4
 
-## The App Features Like
+## The App Have Features Like
 - Login And Logout Functionality
 - Registration
 - Email Rest Authentication
@@ -15,7 +15,7 @@ This Is Django Based Blog App
 - Blog Update and Delete
 
 # How To Run App
-### First install the dependencies to run app
+### First install all the dependencies to run Django app
 - Make a folder of your choice
 ```
 $ mkdir demo
