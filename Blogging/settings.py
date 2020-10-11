@@ -129,8 +129,8 @@ STATIC_URL = '/static/'
 #so we change it
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-#below line is adde because, when an
-# user login by default django redirect to localhost:8000/accounts/profile.
+#below line is added because, when a user gets login 
+#by default the LoinView of django redirect to localhost:8000/accounts/profile.
 #but we want it to redirect to home page of blog
 #thats why this 👇👇👇 
 LOGIN_REDIRECT_URL = 'blog-home'
